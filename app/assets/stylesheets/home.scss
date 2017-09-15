@@ -2,13 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
-  width: 100%;
-  height: 100%;
-  animation-name: example;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  animation-name: colorchange;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-@keyframes example {
+@keyframes colorchange {
   0%   {background-color: #90CAF9;}
   25%  {background-color: #FFF59D;}
   50%  {background-color: #CE93D8;}
@@ -21,4 +21,37 @@ body{
 h1{
   text-align: center;
   color: #757575;
+}
+.nav-l{
+  line-height: 80px;
+  position: absolute;
+  bottom: 295px;
+}
+.nav-r{
+  position: absolute;
+  right: 0;
+  line-height: 80px;
+      bottom: 288px;
+}
+.about{
+  width: 80px;
+  transform: rotate(-90deg);
+}
+.port{
+  width: 80px;
+  transform: rotate(90deg);
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: hotpink;
+}
+a:active{
+  text-decoration: none;
+  color: skyblue;
 }

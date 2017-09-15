@@ -1,9 +1,13 @@
 <%= stylesheet_link_tag    'home', media: 'all' %>
 <%= javascript_include_tag 'home' %>
-<div class="bg" onload="bgDisco()"></div>
 <div class="full">
   <h1>Hi! My name is Gina</h1>
-</div>
-<div class="nav">
-  <button type="button" name="button"></button>
+  <div class="nav-l">
+    <h3 class="about">
+    <%=link_to "About me", root_path, :class => "a"%></h3>
+  </div>
+  <div class="nav-r">
+    <h3 class="port">
+    <%= link_to "Portfolio", root_path, :class => "a"%></h3>
+  </div>
 </div>
