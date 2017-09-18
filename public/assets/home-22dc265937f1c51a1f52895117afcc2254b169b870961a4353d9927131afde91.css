@@ -1,0 +1,19 @@
+/* line 4, /Users/ginason/Desktop/portfolio-gina/gina/app/assets/stylesheets/home.scss */
+.img-circle {
+  width: 300px;
+  height: 400px;
+  border: 0 solid #f1f1f1;
+  border-radius: 50%;
+}
+
+/* line 10, /Users/ginason/Desktop/portfolio-gina/gina/app/assets/stylesheets/home.scss */
+.fa {
+  font-size: 35px;
+  margin: 20px auto;
+  color: #273746;
+}
+
+/* line 15, /Users/ginason/Desktop/portfolio-gina/gina/app/assets/stylesheets/home.scss */
+.list-inline-item {
+  margin-left: 30px;
+}
