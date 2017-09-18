@@ -522,8 +522,10 @@ mark,
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
-  max-width: 100%;
-  height: auto;
+  max-width: 530px;
+  height: 300px;
+  /*max-width: 100%;
+  height: auto;*/
 }
 
 .figure {
@@ -5231,11 +5233,11 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #FAE5D3 !important;
+  background-color: white; !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #0062cc !important;
+  background-color: white; !important;
 }
 
 .bg-secondary {
